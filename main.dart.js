@@ -9981,7 +9981,7 @@ i=new H.bf(0,0,p)
 if(!J.a2(k.h(0,"order"),j.h(0,"order")))i.k(0,"order",j.h(0,"order"))
 if(!J.a2(k.h(0,"content"),j.h(0,"content")))i.k(0,"content",j.h(0,"content"))
 if(!J.a2(k.h(0,"is_fulfilling"),j.h(0,"is_fulfilling")))i.k(0,"is_fulfilling",j.h(0,"is_fulfilling"))
-if(!J.a2(k.h(0,"restrictions"),j.h(0,"restrictions")))i.k(0,"restrictions",C.L.xd(j.h(0,"restrictions"),null))
+if(!J.a2(k.h(0,"restrictions"),j.h(0,"restrictions")))i.k(0,"restrictions",j.h(0,"restrictions"))
 h=i.gX(i)?null:i
 z=h!=null?13:14
 break
@@ -10127,7 +10127,7 @@ z.k(0,"is_fulfilling",this.r?"1":"0")
 y=H.k([],[[P.v,P.b,P.o]])
 for(x=this.x,w=x.length,v=0;v<x.length;x.length===w||(0,H.aE)(x),++v){u=x[v].fQ()
 if(u==null)continue
-C.a.j(y,u)}z.k(0,"restrictions",y)
+C.a.j(y,u)}z.k(0,"restrictions",C.L.xd(y,null))
 return z},
 p:{
 k8:function(a,b){var z=new R.aW(b)
