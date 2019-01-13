@@ -1,0 +1,44 @@
+<div class="scrollable">
+    <ul>
+        <li *ngFor="let document of model.documentList" (click)="viewDocument(document.id)" class="list">
+            <material-icon icon="label_important" size="large"></material-icon>
+            {{document.name}}
+        </li>
+    </ul>
+</div>
+
+<div class="toolbar">
+    <material-button (trigger)="showDialog = true"
+                     [disabled]="showDialog"
+                     raised>
+        New Document
+        <material-icon icon="note_add" size="large"></material-icon>
+    </material-button>
+
+    <material-button raised (trigger)="reload()">
+        Reload
+        <material-icon icon="autorenew" size="large"></material-icon>
+    </material-button>
+</div>
+
+<modal [visible]="showDialog">
+    <material-dialog class="basic-dialog" [autoDismissable]="showDialog"
+                     (dismiss)="close()">
+        <form (ngSubmit)="onSubmit(name.value)" #Form = "ngForm" >
+            <h1 header>Create new document</h1>
+            <label>Name of the new document:</label>
+            <br>
+            <input #name type="text" (keyup)="0" autofocus>
+            <br>
+            <small *ngIf="showError" style="color: red">Name is already taken</small>
+            <div footer>
+                <material-button clear-size (trigger)="close()">
+                    Close
+                </material-button>
+                <material-button clear-size (trigger) = "onSubmit(name.value)" [disabled]="name.value == ''" type="submit">
+                    Submit
+                </material-button>
+            </div>
+        </form>
+    </material-dialog>
+</modal>
