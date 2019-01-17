@@ -3,10 +3,11 @@ html {
 }
 
 body {
+    height: 100%;
     margin: 0;
 }
 
-html, textarea {
+html, textarea, input {
     font-family: sans-serif;
     color: black;
     font-size: 1rem;
@@ -16,8 +17,16 @@ material-button[raised] {
     background-color: white !important;
 }
 
-[buttonDecorator] {
-    cursor: pointer !important;
+div#wait-overlay.active {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    cursor: wait;
+    z-index: 100000;
+    background: black;
+    opacity: 0;
 }
 
 @media screen and (max-height: 60rem) {
