@@ -13,6 +13,10 @@ html, textarea, input {
     font-size: 1rem;
 }
 
+.header-bar {
+    background-color: dimgray;
+}
+
 material-button[raised] {
     background-color: white !important;
 }
