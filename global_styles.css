@@ -21,6 +21,10 @@ material-button[raised] {
     background-color: white !important;
 }
 
+.clickable:hover{
+    color: darkred;
+}
+
 div#wait-overlay.active {
     position: fixed;
     top: 0;
