@@ -86,7 +86,6 @@ test_core:packages/test_core/
 timing:packages/timing/
 tuple:packages/tuple/
 typed_data:packages/typed_data/
-utf:packages/utf/
 vm_service_client:packages/vm_service_client/
 watcher:packages/watcher/
 web_socket_channel:packages/web_socket_channel/
