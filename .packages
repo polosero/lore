@@ -58,7 +58,6 @@ package_config:packages/package_config/
 package_resolver:packages/package_resolver/
 path:packages/path/
 pedantic:packages/pedantic/
-plugin:packages/plugin/
 pool:packages/pool/
 protobuf:packages/protobuf/
 pub_semver:packages/pub_semver/
