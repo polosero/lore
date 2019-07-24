@@ -21,7 +21,7 @@ material-button[raised] {
     background-color: white !important;
 }
 
-.clickable:hover{
+.clickable:hover {
     color: darkred;
 }
 
@@ -98,6 +98,7 @@ div#wait-overlay.active {
 .scrollable::-webkit-scrollbar-thumb:hover {
     background: black;
 }
+
 /*******************************************************************************************/
 @font-face {
     font-family: 'Material Icons';
@@ -115,7 +116,7 @@ div#wait-overlay.active {
     font-family: 'Material Icons';
     font-weight: normal;
     font-style: normal;
-    font-size: 24px;  /* Preferred icon size */
+    font-size: 24px; /* Preferred icon size */
     display: inline-block;
     line-height: 1;
     text-transform: none;
