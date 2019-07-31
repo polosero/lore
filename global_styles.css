@@ -65,7 +65,7 @@ div#wait-overlay.active {
 .toolbar {
     width: 60rem;
     margin: auto;
-    max-width: 100vw;
+    max-width: 100%;
 }
 
 .toolbar div {
