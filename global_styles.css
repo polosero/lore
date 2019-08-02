@@ -25,6 +25,13 @@ material-button[raised] {
     color: darkred;
 }
 
+code{
+    color: red;
+    background-color: #eee;
+    border-radius: 0.2em;
+    font-weight: bold;
+}
+
 div#wait-overlay.active {
     position: fixed;
     top: 0;
