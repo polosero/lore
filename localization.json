@@ -5,8 +5,8 @@
     "id": "en"
   },
   {
-      "label": "čeština",
-      "url": "localizations/localization_CZ.json",
-      "id": "cz"
+    "label": "čeština",
+    "url": "localizations/localization_CZ.json",
+    "id": "cz"
   }
 ]

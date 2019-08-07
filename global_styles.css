@@ -25,6 +25,10 @@ material-button[raised] {
     color: darkred;
 }
 
+.value-none{
+    color: silver;
+}
+
 code {
     color: red;
     background-color: #eee;
