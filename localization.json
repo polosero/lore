@@ -1,0 +1,12 @@
+[
+  {
+    "label": "english",
+    "url": "localizations/localization_EN.json",
+    "id": "en"
+  },
+  {
+      "label": "čeština",
+      "url": "localizations/localization_CZ.json",
+      "id": "cz"
+  }
+]
